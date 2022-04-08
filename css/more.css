@@ -1,0 +1,27 @@
+.card-container h3 span {
+  border-radius: 20px !important;
+  padding: 5px 15px !important;
+}
+
+.card-container h3 span {
+  background-color: blue !important;
+  box-shadow: 2px 2px 1px black !important;
+}
+
+.title {
+  background-color: brown !important;
+  color: aqua !important;
+}
+
+.back {
+  background-color: transparent;
+  border: none;
+}
+
+.back img {
+  width: 200px !important;
+  height: 50px !important;
+  object-fit: cover;
+  position: absolute;
+  top: 1.4rem;
+}

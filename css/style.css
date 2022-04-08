@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  height: 200vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.containerDoc {
+  padding-top: 2%;
+  width: 90%;
+  margin: auto;
+}
+
+.rowDoc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rowDoc div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.rowDoc div input {
+  margin: auto;
+  border: 1ps solid salmon;
+  border-radius: 10px;
+  width: 80%;
+  padding: 10px 10px;
+  outline: none;
+  background-color: transparent;
+  color: black;
+  box-shadow: 1px 1px 2px black;
+  font-size: 19px;
+}
+
+.btnDoc img {
+  object-fit: cover;
+  width: 40px;
+  height: 45px;
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.btnDoc {
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  margin-left: 2%;
+}
+
+.selectionDoc {
+  margin: 5% 2%;
+  width: 100px;
+  height: 30px;
+}
+.cardDoc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.card-base {
+  background-color: black;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  margin: 25px 10px;
+}
+.card-header h3 {
+  background-color: tomato;
+  width: 50%;
+  margin: 5% auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px red;
+}
+
+.card-image img {
+  width: 350px !important;
+  height: 300px !important;
+  object-fit: cover !important;
+}
+
+.card-body {
+  padding: 15px 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-body .btn1 {
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid green;
+  transition: 0.5s;
+}
+.card-body .btn2 {
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid red;
+  transition: 0.5s;
+}
+
+.btn1:hover {
+  border: 1px solid red;
+}
+.btn2:hover:hover {
+  border: 1px solid green;
+}
